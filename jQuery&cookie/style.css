@@ -1,0 +1,17 @@
+div{
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+}
+#div1{
+  background-color: aqua;
+}
+#div2{
+  background-color: blueviolet;
+}
+#div3{
+  background-color: pink;
+}
+#div4{
+  background-color: white;
+}

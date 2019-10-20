@@ -1,0 +1,31 @@
+body {
+  min-height: 500px;
+  min-width: 500px;
+  border: 2px dotted chartreuse;
+  background-color: chartreuse;
+}
+
+body #div1 {
+  background-color: aqua;
+  color: black;
+}
+
+body #div2 {
+  background-color: blueviolet;
+  color: black;
+}
+
+body #div3 {
+  background-color: pink;
+}
+
+body #div4 {
+  background-color: white;
+}
+
+div, body {
+  width: 30px;
+  height: 30px;
+  border: 2px solid orange;
+}
+/*# sourceMappingURL=style.css.map */

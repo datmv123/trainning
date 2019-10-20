@@ -1,0 +1,38 @@
+$color : orange;
+$length : 30px;
+$propName : background-color;
+$condition : abcd;
+
+@mixin testMixin {
+  color: black;
+}
+body {
+  min-height: 500px;
+  min-width: 500px;
+  @if($condition == abc){
+    border: 2px dotted $color;
+  }@else{
+    border: 2px dotted chartreuse;
+    background-color: chartreuse;
+  }
+  @extend div;
+  #div1 {
+    #{$propName} : aqua;
+    @include testMixin();
+  }
+  #div2 {
+    background-color: blueviolet;
+    @include testMixin();
+  }
+  #div3 {
+    background-color: pink;
+  }
+  #div4 {
+    #{$propName}: white;
+  }
+}
+div {
+  width: $length;
+  height: $length;
+  border: 2px solid $color;
+}
