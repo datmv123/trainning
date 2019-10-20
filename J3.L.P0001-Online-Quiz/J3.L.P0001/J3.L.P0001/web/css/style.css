@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 4, 2019, 9:56:39 PM
+    Author     : Drol
+*/
+body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: top;
+
+    color: #5d91c0;
+    font-family: sans-serif !important;
+    text-align: center;
+}
+.container{
+    text-align: left;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    display: inline-block;
+    margin: 20px auto;
+    min-height: 370px;
+    overflow: auto;
+    font-size: 17px;
+    overflow-wrap: break-word;
+}
+.marginTop{
+    margin-top: 30px;
+}
+.marginBottom{
+    margin-bottom: 30px;
+}
+.inline-block{
+    display: inline-block;
+}
+.clear-fix{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+#content{
+    max-width: 620px;
+    padding: 0 40px;
+}
+.color-blue{
+    color: blue;
+}
+.color-dark-blue{
+    color: #000066;
+}
+.label{
+    display: inline-block;
+    width: 100px;
+}
+.hidden{
+    visibility: hidden;
+}
+.row{
+    margin: 3px 0 3px 0 ;
+}
+.button{
+    color: black;
+    font-weight: bold;
+}
+.input-text{
+    width: 200px;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+
+.menu-item{
+    float:left;
+    color: #373737;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+#menu_bg{
+    float: left;
+    content: url(../images/menu_bg.gif);
+}
+#menu{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+#header{
+    font-size: 15px;
+    display: inline-block;
+    margin: 15px 20px 0 20px;
+}

@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 10, 2019, 8:29:32 PM
+    Author     : Drol
+*/
+
+#num-quiz{
+    width: 85px;
+}
+#timer{
+    color:red;
+}
+#show-time{
+    margin-left: 50%;
+}
+.options{
+    max-width: 600px;;
+    overflow-wrap: break-word;
+}
+
+#pagger{
+    margin: 10px 90px;
+}
+.row{
+    width: 600px;
+    min-height: 20px;
+}
+.left{
+    width: 70%;
+}
+
+.right{
+    width: 20%;
+}
+
+
+.table{
+    display: table;
+}
+.table-row{
+    display: table-row;
+}
+.table-cell{
+    display: table-cell;
+    padding: 2px 25px 2px 0px;
+    vertical-align: middle;
+}
+textarea{
+    min-height: 50px;
+    min-width: 250px;
+    max-width: 500px;
+    max-height: 300px;
+}

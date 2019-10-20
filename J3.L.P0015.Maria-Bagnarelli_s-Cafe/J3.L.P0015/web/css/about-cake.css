@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2019, 3:45:54 PM
+    Author     : Drol
+*/
+
+
+.product .product-image{
+    max-height: 150px;;
+    float: right;
+    border-radius: 10px;
+}
+.product .produt-content{
+    padding: 0 20px 0 0;
+}
+.product .title{
+    font-family: serif;
+    font-size: 30px;
+}
+.product{
+    padding: 20px 0 ;
+}
+.list-product{
+}
+.product span{
+    padding: 0 0 0 20px;
+}
+.title a{
+    text-decoration: none;
+    color: black;
+}
