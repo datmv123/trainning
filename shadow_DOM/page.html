@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        p {
+            color: red;
+        }
+
+        .blue {
+            background: green;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <p>this is content in paragraph</p>
+        <div id="content1"></div>
+        <div id="content2"></div>
+    </div>
+
+    <script>
+        //get host element
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        //set up child in shadow dom
+        var p1 = document.createElement("p");
+        var p2 = document.createElement("p");
+        p1.innerHTML = "this is content 1";
+        p2.innerHTML = "this is content 2";
+        p1.setAttribute("class","blue");
+        /* set up css for child in shadow dom 
+        ==> main dom and shadow dom don't know each other 
+        ==> css not affected 
+        ==> create css inside shadow dom */
+        var css1 = document.createElement("style");
+        css1.innerHTML = `.blue {
+            background: green;
+        }`;
+        //create shadow root
+        var root1 = content1.attachShadow({ mode: 'open' });
+        var root2 = content2.attachShadow({ mode: 'open' });
+        // attach child to shadow root ==> show in browser
+        root1.appendChild(p1);
+        root2.appendChild(p2);
+        root1.appendChild(css1);
+
+    </script>
+</body>
